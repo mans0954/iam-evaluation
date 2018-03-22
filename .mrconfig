@@ -1,0 +1,24 @@
+
+[docker/comanage]
+checkout = git clone 'git@github.com:mans0954/docker-comanage.git' 'comanage'
+
+[docker/midpoint]
+checkout = git clone 'git@github.com:mans0954/docker-midpoint.git' 'midpoint'
+
+[docker/connid-connector-server]
+checkout = git clone 'git@github.com:mans0954/docker-connid-connector-server.git' 'connid-connector-server'
+
+[docker/kerberos]
+checkout = git clone 'git@github.com:mans0954/docker-kerberos.git' 'kerberos'
+
+[helm/comanage]
+checkout = git clone 'git@github.com:mans0954/helm-comanage.git' 'comanage'
+
+[helm/kerberos]
+checkout = git clone 'git@github.com:mans0954/helm-kerberos.git' 'kerberos'
+
+[terraform/tier-gke]
+checkout = git clone 'git@github.com:mans0954/terraform-tier-gke.git' 'tier-gke'
+
+[helm/repo]
+checkout = git clone 'git@github.com:mans0954/helm-repo.git' 'repo'
