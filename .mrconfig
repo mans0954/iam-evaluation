@@ -22,3 +22,6 @@ checkout = git clone 'git@github.com:mans0954/terraform-tier-gke.git' 'tier-gke'
 
 [helm/repo]
 checkout = git clone 'git@github.com:mans0954/helm-repo.git' 'repo'
+
+[helm/shibboleth-idp]
+checkout = git clone 'git@github.com:mans0954/helm-shibboleth-idp.git' 'shibboleth-idp'
