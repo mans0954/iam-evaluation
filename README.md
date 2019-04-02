@@ -11,15 +11,15 @@ mr checkout
 
 Repositories:
 
-* [docker/comanage](https://github.com/mans0954/docker-comanage)
+* [docker/comanage](https://github.com/mans0954/docker-comanage) includes docker-compose file for bringing up comanage, postgres, and IdPs/KDCs for 2 fictitious universities.
 * [docker/midpoint](https://github.com/mans0954/docker-midpoint)
 * [docker/connid-connector-server](https://github.com/mans0954/docker-connid-connector-server)
 * [docker/kerberos](https://github.com/mans0954/docker-kerberos)
 * [docker/tier-idp](https://github.com/mans0954/tier-idp)
 * [helm/comanage](https://github.com/mans0954/helm-comanage)
 * [helm/kerberos](https://github.com/mans0954/helm-kerberos)
-* [helm/repo](https://github.com/mans0954/helm-repo)
+* [helm/repo](https://github.com/mans0954/helm-repo) repository for Helm Charts
 * [helm/shibboleth-idp](https://github.com/mans0954/helm-shibboleth-idp)
-* [helm/iam-evaluation](https://github.com/mans0954/helm-iam-evaluation)
-* [terraform/tier-gke](https://github.com/mans0954/terraform-tier-gke)
+* [helm/iam-evaluation](https://github.com/mans0954/helm-iam-evaluation) requires comanage and shibboleth-idp charts - work in progress
+* [terraform/tier-gke](https://github.com/mans0954/terraform-tier-gke) uses terraform to set up Helm in GKE and deploys COmanage helm chart
 
